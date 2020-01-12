@@ -1,0 +1,71 @@
+.login-bg {
+    background-image: url(../../assets/imgs/login-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.login-form {
+    background-color: white;
+    padding: 74px 62px;
+    width: 521px;
+    height: 479px;
+    position: relative;
+    left: 58%;
+    top: 13%;
+    font-family: roboto-medium;
+}
+
+.login-label {
+    font-size: 14px;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.login-logo {
+    position: relative;
+    bottom: 4%;
+    right: -6%;
+    width: 400px;
+    font-weight: roboto-medium;
+    font-size: 20px;
+}
+
+.logo-title {
+    position: relative;
+    top: 47px;
+    left: 23px;
+}
+
+.black-btn {
+    background-color: #000000;
+    border-radius: 5px;
+}
+
+@media only screen and (min-width: 1400px) {
+    .login-bg {
+        background-image: url(../../assets/imgs/login-bg.png);
+        background-size: cover;
+        height: 100vh;
+    }
+    .login-form {
+        background-color: white;
+        padding: 74px 62px;
+        width: 521px;
+        height: 508px;
+        position: relative;
+        left: 66%;
+        top: 18%;
+        font-family: roboto-medium;
+    }
+    .login-logo {
+        position: relative;
+        bottom: -2%;
+        right: -6%;
+        width: 400px;
+        font-weight: roboto-medium;
+        font-size: 20px;
+    }
+}
