@@ -1,0 +1,107 @@
+<div class="container-fluid bg-grey pr-3 pl-3">
+    <div class="row justify-content-between pt-4 pr-3 pl-3">
+        <div class="heading-22">
+            Configuration filter
+        </div>
+        <div>
+            <div class="d-inline-block align-dropdown ">
+                <p-dropdown [options]="cities" [(ngModel)]="selectedCity" class="header-drop-down" placeholder="Production data" optionLabel="name" [showClear]="true"></p-dropdown>
+            </div>
+            <div class="d-inline-block ml-4">
+                <p-multiSelect [options]="cars" [(ngModel)]="selectedCars1" [panelStyle]="{minWidth:'12em'}" class="header-multi-select" maxSelectedLabels="2"></p-multiSelect>
+            </div>
+            <div class="d-inline-block align-button ml-4">
+                <p-button label="Export Excel Sheet" icon="icon-insert_drive_file" class="header-btn"></p-button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid bg-light-grey pr-3 pl-3">
+    <div class="row  pt-4 pr-3 pl-3 pb-4">
+        <div class="col-3 pl-0">
+            <label for="" class="filter-label">
+                Start From
+            </label> <br>
+            <p-calendar [(ngModel)]="value" class="calender-input"></p-calendar>
+            <i class="icon-date_range color-icon-grey filter-icon-position"></i>
+        </div>
+        <div class="col-3">
+            <label for="" class="filter-label">
+                Start From
+            </label> <br>
+            <p-calendar [(ngModel)]="value" class="calender-input"></p-calendar>
+            <i class="icon-date_range color-icon-grey filter-icon-position"></i>
+        </div>
+        <div class="col-3">
+            <label for="" class="filter-label">
+                Start From
+            </label> <br>
+            <p-calendar [(ngModel)]="value" class="calender-input"></p-calendar>
+            <i class="icon-date_range color-icon-grey filter-icon-position"></i>
+        </div>
+        <div class="col-3">
+            <label for="" class="filter-label">
+                Start From
+            </label> <br>
+            <p-calendar [(ngModel)]="value" class="calender-input"></p-calendar>
+            <i class="icon-date_range color-icon-grey filter-icon-position"></i>
+        </div>
+    </div>
+
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <table class="table configuration-table">
+                <thead class="table-header">
+
+                    <th scope="col">OFFER_ID</th>
+                    <th scope="col">Date</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">OFFER_CATEGORY</th>
+                    <th scope="col">BONUS_VALUE</th>
+
+                </thead>
+                <tbody>
+                    <tr>
+                        <td scope="row"> <img src="../../assets/imgs/date-icon.svg" alt="" class="mr-1"> 0225855</td>
+                        <td>4/1/2019</td>
+                        <td>Will be started after 05 day 09 hour 22 mint one time </td>
+                        <td>4/1/2019</td>
+                        <td>4/1/2019</td>
+                    </tr>
+                    <tr>
+                        <td scope="row"> <img src="../../assets/imgs/date-icon.svg" alt="" class="mr-1"> 0225855</td>
+                        <td>4/1/2019</td>
+                        <td>Will be started after 05 day 09 hour 22 mint one time </td>
+                        <td>4/1/2019</td>
+                        <td>4/1/2019</td>
+                    </tr>
+                    <tr>
+                        <td scope="row"> <img src="../../assets/imgs/date-icon.svg" alt="" class="mr-1"> 0225855</td>
+                        <td>4/1/2019</td>
+                        <td>Will be started after 05 day 09 hour 22 mint one time </td>
+                        <td>4/1/2019</td>
+                        <td>4/1/2019</td>
+                    </tr>
+                    <tr>
+                        <td scope="row"> <img src="../../assets/imgs/date-icon.svg" alt="" class="mr-1"> 0225855</td>
+                        <td>4/1/2019</td>
+                        <td>Will be started after 05 day 09 hour 22 mint one time </td>
+                        <td>4/1/2019</td>
+                        <td>4/1/2019</td>
+                    </tr>
+                    <tr>
+                        <td scope="row"> <img src="../../assets/imgs/date-icon.svg" alt="" class="mr-1"> 0225855</td>
+                        <td>4/1/2019</td>
+                        <td>Will be started after 05 day 09 hour 22 mint one time </td>
+                        <td>4/1/2019</td>
+                        <td>4/1/2019</td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+        </div>
+    </div>
+</div>

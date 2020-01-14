@@ -1,0 +1,37 @@
+.header {
+    height: 70px;
+    background-color: #000000;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+}
+
+.logo-title {
+    position: relative;
+    top: 7px;
+}
+
+::ng-deep body .header-dropdown .ui-dropdown {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+::ng-deep body .header-dropdown .ui-dropdown .ui-dropdown-trigger {
+    background-color: transparent;
+    border: none;
+    color: white;
+    position: absolute;
+    right: 21px;
+}
+
+::ng-deep body .header-dropdown .ui-dropdown .ui-dropdown-clear-icon {
+    display: none;
+}
+
+::ng-deep body .header-dropdown .ui-inputtext {
+    background-color: transparent;
+    border: none;
+    color: white;
+}

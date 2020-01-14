@@ -10,6 +10,11 @@
     src: url(assets/fonts/Roboto-Bold.ttf);
 }
 
+@font-face {
+    font-family: roboto-light;
+    src: url(assets/fonts/Roboto-Light.ttf);
+}
+
 .roboto-medium {
     font-family: roboto-medium;
 }
@@ -18,13 +23,25 @@
     font-family: roboto-bold;
 }
 
+.roboto-light {
+    font-family: roboto-light;
+}
+
 
 /* common */
 
 body {
     margin: 0px;
-    padding: 0px;
+    padding: 70px 0px 0px 72px;
     font-family: roboto-medium;
+}
+
+.bg-grey {
+    background-color: #F3F4F8;
+}
+
+.bg-light-grey {
+    background-color: #FCFCFC;
 }
 
 
@@ -32,6 +49,10 @@ body {
 
 .color-white {
     color: white;
+}
+
+.color-icon-grey {
+    color: #646464;
 }
 
 
@@ -43,4 +64,15 @@ body {
     border-color: #ff660052 !important;
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(255, 102, 0, 0.02) !important;
+}
+
+
+/*forms*/
+
+.heading-21 {
+    font-size: 21px;
+}
+
+.heading-22 {
+    font-size: 22px;
 }

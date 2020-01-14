@@ -1,0 +1,129 @@
+.align-dropdown {
+    position: relative;
+    bottom: 13px;
+}
+
+.align-button {
+    position: relative;
+    bottom: 11px;
+}
+
+::ng-deep body .header-btn .ui-button.ui-button-text-only .ui-button-text {
+    width: 200px;
+    background-color: #000000;
+    font-size: 16px;
+}
+
+::ng-deep body .header-btn .ui-button-text-icon-left .ui-button-icon-left {
+    font-size: 16px;
+}
+
+::ng-deep body .header-btn .ui-button {
+    background-color: black;
+    border: black;
+    padding: 1px;
+}
+
+::ng-deep body .header-btn .ui-button:enabled:focus {
+    outline: 0 none;
+    outline-offset: 0px;
+    box-shadow: 0 0 0 0.2em transparent;
+}
+
+::ng-deep body .header-btn .ui-button:enabled:hover {
+    background-color: black;
+    border: black;
+}
+
+::ng-deep body .header-multi-select .ui-multiselect .ui-multiselect-label {
+    width: 200px;
+    font-family: roboto-medium;
+    font-size: 13px;
+}
+
+::ng-deep body .header-multi-select .ui-multiselect-panel .ui-multiselect-header {
+    display: none;
+}
+
+::ng-deep body .header-multi-select .ui-multiselect-panel .ui-multiselect-items .ui-multiselect-item:focus {
+    outline-color: transparent;
+}
+
+::ng-deep body .ui-multiselect-panel .ui-multiselect-items .ui-multiselect-item.ui-state-highlight {
+    background-color: transparent;
+}
+
+::ng-deep body .ui-multiselect-panel .ui-multiselect-items .ui-multiselect-item.ui-state-highlight {
+    color: black;
+}
+
+::ng-deep body .ui-multiselect-panel .ui-multiselect-items .ui-multiselect-item.ui-state-highlight:focus {
+    outline-color: transparent;
+}
+
+::ng-deep .header-multi-select .ui-multiselect-panel .ui-multiselect-items-wrapper {
+    width: 200px;
+}
+
+::ng-deep body .ui-chkbox .ui-chkbox-box.ui-state-active {
+    background-color: black;
+    border: black;
+}
+
+::ng-deep body .header-drop-down .ui-dropdown.ui-dropdown-clearable .ui-dropdown-label {
+    width: 200px;
+    font-family: roboto-medium;
+    font-size: 13px;
+}
+
+::ng-deep body .header-drop-down .ui-dropdown .ui-dropdown-clear-icon {
+    display: none;
+}
+
+::ng-deep body .header-drop-down .ui-dropdown-panel .ui-dropdown-items .ui-dropdown-item.ui-state-highlight {
+    background-color: black;
+}
+
+.filter-label {
+    font-size: 12px;
+    font-family: roboto-medium;
+}
+
+.filter-icon-position {
+    position: relative;
+    right: 23px;
+}
+
+::ng-deep body .calender-input .ui-inputtext {
+    width: 250px;
+}
+
+::ng-deep body .calender-input .ui-datepicker table td.ui-datepicker-today>a.ui-state-active {
+    background-color: black;
+}
+
+.table-header {
+    background-color: #FBFBFC;
+}
+
+.configuration-table thead th {
+    vertical-align: bottom;
+    border-bottom: none;
+    font-family: roboto-medium;
+    font-size: 13px;
+}
+
+.configuration-table td,
+th {
+    border-top: none;
+}
+
+.configuration-table tr {
+    font-size: 13px;
+    font-family: roboto-medium;
+}
+
+.configuration-table tr:hover {
+    background-color: #a67bd4;
+    color: white;
+}
