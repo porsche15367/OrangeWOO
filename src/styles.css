@@ -1,3 +1,5 @@
+@import '~animate.css/animate.min';
+
 /* fonts */
 
 @font-face {
@@ -53,6 +55,10 @@ body {
 
 .color-icon-grey {
     color: #646464;
+}
+
+.color-orange {
+    color: #ff6600;
 }
 
 

@@ -99,7 +99,7 @@
 }
 
 ::ng-deep body .calender-input .ui-datepicker table td.ui-datepicker-today>a.ui-state-active {
-    background-color: black;
+    background-color: black !important;
 }
 
 .table-header {
