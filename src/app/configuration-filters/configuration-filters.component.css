@@ -1,6 +1,6 @@
 .align-dropdown {
     position: relative;
-    bottom: 13px;
+    bottom: 11px;
 }
 
 .align-button {
@@ -61,6 +61,10 @@
     outline-color: transparent;
 }
 
+::ng-deep body .ui-chkbox .ui-chkbox-box.ui-state-active:not(.ui-state-disabled):hover {
+    background-color: black;
+}
+
 ::ng-deep .header-multi-select .ui-multiselect-panel .ui-multiselect-items-wrapper {
     width: 200px;
 }
@@ -98,7 +102,8 @@
     width: 250px;
 }
 
-::ng-deep body .calender-input .ui-datepicker table td.ui-datepicker-today>a.ui-state-active {
+::ng-deep body .calender-input .ui-datepicker table td>a.ui-state-active,
+body .ui-datepicker table td>span.ui-state-active {
     background-color: black !important;
 }
 
@@ -106,11 +111,17 @@
     background-color: #FBFBFC;
 }
 
+.configuration-table {
+    border: 1px solid #E7E7EE;
+}
+
 .configuration-table thead th {
     vertical-align: bottom;
     border-bottom: none;
     font-family: roboto-medium;
     font-size: 13px;
+    background-color: #FBFBFC;
+    border: 1px solid #E7E7EE;
 }
 
 .configuration-table td,
@@ -126,4 +137,8 @@ th {
 .configuration-table tr:hover {
     background-color: #a67bd4;
     color: white;
+}
+
+.animated {
+    animation-fill-mode: inherit !important;
 }

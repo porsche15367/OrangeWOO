@@ -17,6 +17,11 @@
     src: url(assets/fonts/Roboto-Light.ttf);
 }
 
+@font-face {
+    font-family: roboto-regular;
+    src: url(assets/fonts/Roboto-Regular.ttf);
+}
+
 .roboto-medium {
     font-family: roboto-medium;
 }
@@ -27,6 +32,10 @@
 
 .roboto-light {
     font-family: roboto-light;
+}
+
+.roboto-regular {
+    font-family: roboto-regular;
 }
 
 
@@ -44,6 +53,22 @@ body {
 
 .bg-light-grey {
     background-color: #FCFCFC;
+}
+
+.animated {
+    -webkit-animation-fill-mode: inherit
+}
+
+.margin-top-70 {
+    margin-top: 70px;
+}
+
+::ng-deep body .editable-table-dialog .ui-button.ui-button-text-only .ui-button-text {
+    font-family: roboto-medium;
+}
+
+::ng-deep .ui-datepicker-mask {
+    z-index: 1000 !important;
 }
 
 
@@ -73,7 +98,19 @@ body {
 }
 
 
-/*forms*/
+/*headings*/
+
+.heading-14 {
+    font-size: 14px;
+}
+
+.heading-15 {
+    font-size: 15px;
+}
+
+.heading-17 {
+    font-size: 17px;
+}
 
 .heading-21 {
     font-size: 21px;
@@ -81,4 +118,8 @@ body {
 
 .heading-22 {
     font-size: 22px;
+}
+
+.heading-30 {
+    font-size: 30px;
 }

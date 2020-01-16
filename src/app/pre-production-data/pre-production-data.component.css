@@ -1,0 +1,81 @@
+::ng-deep body .header-btn .ui-button.ui-button-text-only .ui-button-text {
+    width: 200px;
+    background-color: #000000;
+    font-size: 16px;
+}
+
+::ng-deep body .header-btn .ui-button-text-icon-left .ui-button-icon-left {
+    font-size: 16px;
+}
+
+::ng-deep body .header-btn .ui-button {
+    background-color: black;
+    border: black;
+    padding: 1px;
+}
+
+::ng-deep body .header-btn .ui-button:enabled:focus {
+    outline: 0 none;
+    outline-offset: 0px;
+    box-shadow: 0 0 0 0.2em transparent;
+}
+
+::ng-deep body .header-btn-orange .ui-button:enabled:hover {
+    background-color: #FF6600;
+    border: #FF6600;
+}
+
+::ng-deep body .header-btn-orange .ui-button.ui-button-text-only .ui-button-text {
+    width: 200px;
+    background-color: #FF6600;
+    font-size: 16px;
+}
+
+::ng-deep body .header-btn-orange .ui-button-text-icon-left .ui-button-icon-left {
+    font-size: 16px;
+}
+
+::ng-deep body .header-btn-orange .ui-button {
+    background-color: #FF6600;
+    border: #FF6600;
+    padding: 1px;
+}
+
+::ng-deep body .header-btn .ui-button:enabled:focus {
+    outline: 0 none;
+    outline-offset: 0px;
+    box-shadow: 0 0 0 0.2em transparent;
+}
+
+::ng-deep body .header-btn .ui-button:enabled:hover {
+    background-color: black;
+    border: black;
+}
+
+.configuration-table {
+    border: 1px solid #E7E7EE;
+}
+
+.configuration-table thead th {
+    vertical-align: bottom;
+    border-bottom: none;
+    font-family: roboto-medium;
+    font-size: 13px;
+    background-color: #FBFBFC;
+    border: 1px solid #E7E7EE;
+}
+
+.configuration-table td,
+th {
+    border-top: none;
+}
+
+.configuration-table tr {
+    font-size: 13px;
+    font-family: roboto-medium;
+}
+
+.configuration-table tr:hover {
+    background-color: #a67bd4;
+    color: white;
+}

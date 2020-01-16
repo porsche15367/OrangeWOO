@@ -12,7 +12,13 @@ import { FormsModule } from '@angular/forms';
 import {MultiSelectModule} from 'primeng/multiselect';
 import {ButtonModule} from 'primeng/button';
 import {CalendarModule} from 'primeng/calendar';
-
+import { NonTelcoPartnerComponent } from './non-telco-partner/non-telco-partner.component';
+import {TableModule} from 'primeng/table';
+import {DialogModule} from 'primeng/dialog';
+import {HttpClientModule} from '@angular/common/http';
+import { GeneralService } from './services/general.service';
+import { PreProductionDataComponent } from './pre-production-data/pre-production-data.component';
+import { ErrorsTableComponent } from './errors-table/errors-table.component';
 
 @NgModule({
   declarations: [
@@ -21,8 +27,9 @@ import {CalendarModule} from 'primeng/calendar';
     ConfigurationFiltersComponent,
     HeaderComponent,
     SideNavComponent,
-   
-    
+    NonTelcoPartnerComponent,
+    PreProductionDataComponent,
+    ErrorsTableComponent
   ],
   imports: [
     BrowserModule,
@@ -32,10 +39,12 @@ import {CalendarModule} from 'primeng/calendar';
     FormsModule,
     MultiSelectModule,
     ButtonModule,
-    CalendarModule
-    
+    CalendarModule,
+    TableModule,
+    DialogModule,
+    HttpClientModule 
   ],
-  providers: [],
+  providers: [ GeneralService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

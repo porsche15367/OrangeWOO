@@ -1,0 +1,86 @@
+<div class="container-fluid bg-grey pr-3 pl-3">
+    <div class="row justify-content-between pt-4 pr-3 pl-3 pb-4">
+        <div class="heading-22">
+            Non-telco partner calendar
+        </div>
+        <div>
+            <div class="d-inline mr-3">
+                <p-button label="Upload Calendar Excel File" icon="icon-cloud_uploadbackup" class="header-btn"></p-button>
+            </div>
+            <div class="d-inline">
+                <p-button label="Export Excel Sheet" icon="icon-insert_drive_file" class="header-btn-orange"></p-button>
+            </div>
+
+
+
+        </div>
+    </div>
+</div>
+<div class="container text-center margin-top-70" style="display: none;">
+    <img src="../../assets/imgs/excel.svg" alt="">
+    <div class="heading-30 mt-5">
+        Upload Non-Telco Partners Calendar Excel File
+    </div>
+    <div class="roboto-medium heading-14 mt-2">
+        please upload an excel sheet with the pre-agreement format to add/ <br> update new partner for certain days
+    </div>
+</div>
+<div class="container-fluid mt-4">
+    <div class="row">
+        <div class="col-5">
+            <label for="" class="filter-label mr-2">
+            Filter By Date Range:
+        </label>
+            <p-calendar [(ngModel)]="value" selectionMode="range" class="calender-range-input" placeholder="Select Date"></p-calendar>
+            <i class="icon-date_range color-icon-grey filter-icon-position"></i>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col-12">
+            <p-table [columns]="cols" [value]="cars" selectionMode="single" [(selection)]="selectedCar" (onRowSelect)="onRowSelect($event)" [paginator]="false" [rows]="15" class="editable-table">
+
+                <ng-template pTemplate="header" let-columns>
+                    <tr>
+                        <th *ngFor="let col of columns" [pSortableColumn]="col.field">
+                            {{col.header}}
+                            <p-sortIcon [field]="col.field"></p-sortIcon>
+                        </th>
+                    </tr>
+                </ng-template>
+                <ng-template pTemplate="body" let-rowData let-columns="columns">
+                    <tr [pSelectableRow]="rowData">
+                        <td *ngFor="let col of columns">
+                            {{rowData[col.field]}}
+                        </td>
+                    </tr>
+                </ng-template>
+
+            </p-table>
+
+            <p-dialog header="Car Details" [(visible)]="displayDialog" [focusOnShow]="false" [responsive]="true" showEffect="fade" [modal]="true" [style]="{width: '300px'}" class="editable-table-dialog">
+                <div class="ui-g ui-fluid " *ngIf="car">
+                    <div class="ui-g-12 text-center">
+                        <div class="roboto-regular  heading-15">PARTNER_ID</div>
+                        <div class="roboto-medium heading-17">Edit Date</div>
+                    </div>
+                    <div class="ui-g-12">
+                        <div class="ui-g-12">
+                            <label for="year" class="heading-14 roboto-medium"> <i class="icon-today"></i> Select Date</label>
+                        </div>
+                        <div class="ui-g-12">
+                            <p-calendar [(ngModel)]="value" class="calender-range-input" [touchUI]="true" placeholder="Select Date"></p-calendar>
+                            <i class="icon-date_range color-icon-grey dialog-icon"></i>
+                        </div>
+                    </div>
+
+                </div>
+                <p-footer>
+                    <div class="ui-dialog-buttonpane ui-helper-clearfix">
+                        <button type="button" pButton (click)="cancel()" label="Cancel" class="grey-btn"></button>
+                        <button type="button" pButton (click)="save()" label="Save" class="orange-btn"></button>
+                    </div>
+                </p-footer>
+            </p-dialog>
+        </div>
+    </div>
+</div>

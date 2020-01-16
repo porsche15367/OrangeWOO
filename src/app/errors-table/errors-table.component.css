@@ -1,0 +1,22 @@
+.configuration-table {
+    border: 1px solid #E7E7EE;
+}
+
+.configuration-table thead th {
+    vertical-align: bottom;
+    border-bottom: none;
+    font-family: roboto-medium;
+    font-size: 13px;
+    background-color: #FBFBFC;
+    border: 1px solid #E7E7EE;
+}
+
+.configuration-table td,
+th {
+    border-top: none;
+}
+
+.configuration-table tr {
+    font-size: 13px;
+    font-family: roboto-medium;
+}

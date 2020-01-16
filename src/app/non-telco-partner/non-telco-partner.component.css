@@ -1,0 +1,184 @@
+::ng-deep body .header-btn .ui-button.ui-button-text-only .ui-button-text {
+    width: 200px;
+    background-color: #000000;
+    font-size: 16px;
+}
+
+::ng-deep body .header-btn .ui-button-text-icon-left .ui-button-icon-left {
+    font-size: 16px;
+}
+
+::ng-deep body .header-btn .ui-button {
+    background-color: black;
+    border: black;
+    padding: 1px;
+}
+
+::ng-deep body .header-btn .ui-button:enabled:focus {
+    outline: 0 none;
+    outline-offset: 0px;
+    box-shadow: 0 0 0 0.2em transparent;
+}
+
+::ng-deep body .header-btn-orange .ui-button:enabled:hover {
+    background-color: #FF6600;
+    border: #FF6600;
+}
+
+::ng-deep body .header-btn-orange .ui-button.ui-button-text-only .ui-button-text {
+    width: 200px;
+    background-color: #FF6600;
+    font-size: 16px;
+}
+
+::ng-deep body .header-btn-orange .ui-button-text-icon-left .ui-button-icon-left {
+    font-size: 16px;
+}
+
+::ng-deep body .header-btn-orange .ui-button {
+    background-color: #FF6600;
+    border: #FF6600;
+    padding: 1px;
+}
+
+::ng-deep body .header-btn .ui-button:enabled:focus {
+    outline: 0 none;
+    outline-offset: 0px;
+    box-shadow: 0 0 0 0.2em transparent;
+}
+
+::ng-deep body .header-btn .ui-button:enabled:hover {
+    background-color: black;
+    border: black;
+}
+
+::ng-deep body .calender-range-input .ui-inputtext {
+    width: 250px;
+}
+
+::ng-deep body .calender-range-input .ui-datepicker table td>a.ui-state-active,
+body .ui-datepicker table td>span.ui-state-active {
+    background-color: black !important;
+}
+
+.filter-icon-position {
+    position: relative;
+    right: 23px;
+}
+
+.filter-label {
+    font-size: 12px;
+    font-family: roboto-medium;
+}
+
+::ng-deep body .editable-table .ui-table .ui-table-thead>tr>th {
+    background-color: #FBFBFC;
+    border: none;
+    font-family: roboto-medium;
+    font-size: 13px;
+}
+
+::ng-deep body .editable-table .ui-table .ui-table-tbody>tr>td {
+    background-color: transparent;
+    border: none;
+    font-family: roboto-medium;
+    font-size: 13px;
+}
+
+::ng-deep body .editable-table .ui-table .ui-table-tbody>tr:nth-child(even) {
+    background-color: transparent;
+}
+
+::ng-deep body .editable-table .ui-table .ui-table-tbody>tr:nth-child(even):focus {
+    outline-color: transparent;
+}
+
+::ng-deep body .editable-table .ui-table.ui-table-hoverable-rows .ui-table-tbody>tr.ui-selectable-row:not(.ui-state-highlight):not(.ui-contextmenu-selected):hover {
+    background-color: #a67bd4;
+    color: white;
+}
+
+::ng-deep body .editable-table .ui-table .ui-table-tbody>tr.ui-state-highlight {
+    background-color: #a67bd4;
+}
+
+::ng-deep body .editable-table .ui-table .ui-sortable-column:not(.ui-state-highlight):hover {
+    background-color: #FBFBFC;
+}
+
+::ng-deep body .editable-table .ui-table-wrapper {
+    border: 1px solid #E7E7EE;
+}
+
+::ng-deep body .editable-table-dialog .ui-dialog .ui-dialog-titlebar {
+    display: none;
+}
+
+::ng-deep body .editable-table-dialog .ui-dialog {
+    width: 30% !important;
+}
+
+::ng-deep body .editable-table-dialog .ui-dialog .ui-dialog-content {
+    border-radius: 10px 10px 0px 0px;
+    padding: 26px 90px;
+}
+
+::ng-deep body .editable-table-dialog .ui-dialog .ui-dialog-footer {
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+    border-top: 0px;
+    padding-bottom: 25px;
+}
+
+::ng-deep body .editable-table-dialog .ui-button.ui-button-text-only .ui-button-text {
+    padding: 0.429em 1em;
+    width: 170px;
+}
+
+.dialog-input {
+    width: 270px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #0000003b;
+}
+
+.dialog-icon {
+    position: relative;
+    right: -221px;
+    bottom: 26px;
+    font-size: 16px;
+}
+
+::ng-deep .ui-datepicker-mask {
+    z-index: 1000 !important;
+}
+
+.grey-btn {
+    background-color: #E9E9E9;
+    border: #E9E9E9;
+    padding: 1px;
+    color: black;
+    font-family: roboto-medium;
+}
+
+.grey-btn:hover {
+    background-color: #E9E9E9 !important;
+    border: #E9E9E9 !important;
+    padding: 1px;
+    color: black !important;
+    font-family: roboto-medium;
+}
+
+.orange-btn {
+    background-color: #FF6600;
+    border: #FF6600;
+    padding: 1px;
+    font-family: roboto-medium;
+}
+
+.orange-btn:hover {
+    background-color: #FF6600 !important;
+    border: #FF6600 !important;
+    padding: 1px;
+    font-family: roboto-medium;
+}

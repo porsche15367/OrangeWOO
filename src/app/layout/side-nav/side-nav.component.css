@@ -22,3 +22,7 @@
 .side-nav-list .active {
     border-right: 1px solid #FF6600;
 }
+
+li {
+    outline-color: transparent;
+}
